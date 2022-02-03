@@ -75,29 +75,40 @@ img {
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
  
   
   body{ 
-  /* overflow-y: scroll; */
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
   
   .container {
-   /* display: flex; */
-   background-color: #f2f2cd;
-
- }
+  background-color: #f2f2cd;
+ 
  
  .row {
-   display: flex;
-   flex-direction: column;
-   margin: auto;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+
+
 }
 
  .left, .right {
   background-color: red;
-  align-items: center; 
+  /* align-items: center;  */
+  width: 100%;
 }
+
+.left img, .right img{
+  width: 100%;
+}
+
+
 
  
   .row h1 {
