@@ -75,32 +75,40 @@ img {
 
 
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:480px) {
  
   
   body{ 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
   }
   
   .container {
+  display: flex;
   background-color: #f2f2cd;
+  flex-direction: column;
+  justify-content: flex-start;
+}
  
  
+/* NON CAPISCO PERCHE' METTENDO JUSTIFY CONTENT FLEX START NON MI SI ALLINEA IN ALTO  */
+
  .row {
   display: flex;
   width: 100%;
   flex-direction: column;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-
+.row h1 {
+  margin-top: 0;
 }
 
  .left, .right {
-  background-color: red;
-  /* align-items: center;  */
+  align-items: center; 
   width: 100%;
 }
 
@@ -108,15 +116,6 @@ img {
   width: 100%;
 }
 
-
-
- 
-  .row h1 {
-  
-   margin: auto;
- }
- 
-  
 }
   
 
