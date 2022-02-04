@@ -75,7 +75,7 @@ img {
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:420px) {
  
   
   body{ 
@@ -84,7 +84,7 @@ img {
     justify-content: flex-start;
   }
   
-  .container {
+  .container{
   display: flex;
   background-color: #f2f2cd;
   flex-direction: column;
@@ -106,26 +106,61 @@ img {
 
  #lezioni .row>.left{
   align-items: center; 
-  margin-bottom: 2rem;
   width: 100%;
 }
 
 #lezioni .row>.right{
   align-items: center; 
-  margin-bottom: 2rem;
   width: 100%;
 }
 
 #lezioni .row>.left img{
   align-items: center; 
-  margin-bottom: 2rem;
-  max-width: 50%;
+  max-width: 70%;
 }
 
 #lezioni .row>.right img{
   align-items: center; 
-  margin-bottom: 2rem;
-  max-width: 50%;
+  max-width: 70%;
+}
+
+#steps .row>.left{
+  width: 100%;
+}
+
+#steps .row>.central{
+  width: 100%;
+}
+
+#steps .row>.right{
+  width: 100%;
+}
+
+#steps .row>.left img{
+  width: 100%;
+  max-width: 60%;
+}
+
+
+#steps .row>.central img{
+  width: 100%;
+  /* margin-bottom: 1rem; */
+}
+
+
+#steps .row>.right img{
+  width: 100%;
+  max-width: 60%;
+}
+
+#why .row>.first img,
+#why .row>.second img,
+#why .row>.third img{
+  max-width: 70%;
+}
+
+#why {
+  background-color: #f2f2cd;
 }
 
 }
